@@ -10,6 +10,6 @@
   },
   {
     "ParameterKey": "LambdaMemorySize",
-    "ParameterValue": "128"
+    "ParameterValue": "256"
   }
 ]
