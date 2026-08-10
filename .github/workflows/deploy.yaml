@@ -28,9 +28,9 @@ env:
   CFN_BUCKET: ${{ vars.CFN_BUCKET }}
   AWS_ROLE_ARN: ${{ vars.AWS_ROLE_ARN }}
   STACK_NAME: cfn-demo-infrastructure
-  TEMPLATE_FILE: cloudformation/infrastructure.yaml
-  PARAMETERS_FILE: cloudformation/parameters.json
-  TAGS_FILE: cloudformation/tags.json
+  TEMPLATE_FILE: cloudformations/infrastructure.yaml
+  PARAMETERS_FILE: cloudformations/parameters.json
+  TAGS_FILE: cloudformations/tags.json
   CHANGESET_NAME: changeset-${{ github.run_id }}-${{ github.run_attempt }}
 
 jobs:
